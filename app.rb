@@ -18,7 +18,7 @@ get("/wizard_add") do
 end
 
 get("/subtract") do
-  erb(:sub_form)
+  erb(:subtraction_form)
 end
 
 get("/wizard_subtract") do
